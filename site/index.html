@@ -1,0 +1,278 @@
+<!doctype html>
+<!--
+  Little Fern Coffee (showcase site)
+  Copyright (c) 2026 Miloš Milinkov. All rights reserved.
+  Proprietary. See the LICENSE file.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Little Fern Coffee | Neighborhood coffee bar</title>
+  <meta name="description" content="Little Fern is a small neighborhood coffee bar: espresso, filter of the week, cardamom buns from our own oven and a sunny window seat. Open every day.">
+  <meta name="theme-color" content="#33503d">
+  <meta property="og:title" content="Little Fern Coffee">
+  <meta property="og:description" content="Good coffee, a sunny window and a seat with your name on it.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Caveat:wght@500;700&display=swap">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/main.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <div class="demo-bar">
+    <p>This is a demo website by Miloš Milinkov. Want one like it for your place?
+      <a href="https://milos-milinkov.milos300399.workers.dev" rel="noopener">See my work and get in touch</a></p>
+  </div>
+
+  <header class="site-header wrap">
+    <a class="brand" href="#top" aria-label="Little Fern Coffee, back to top">
+      <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+        <circle cx="20" cy="20" r="19" fill="var(--fern)"/>
+        <path d="M20 32 C20 24 20 16 20 9" stroke="var(--paper)" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+        <path d="M20 13 q-7 -1 -9 -5 q6 -1 9 5 M20 13 q7 -1 9 -5 q-6 -1 -9 5 M20 19 q-8 -1 -10 -6 q7 -1 10 6 M20 19 q8 -1 10 -6 q-7 -1 -10 6 M20 25 q-8 0 -10 -5 q7 -1 10 5 M20 25 q8 0 10 -5 q-7 -1 -10 5" fill="var(--paper)"/>
+      </svg>
+      <span>Little Fern</span>
+    </a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#story">Our story</a></li>
+        <li><a href="#happening">What's on</a></li>
+        <li><a class="nav-cta" href="#visit">Visit us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" id="top">
+      <div class="hero-copy">
+        <h1>Come in, sit down, stay a while.</h1>
+        <p class="lede">Little Fern is a small coffee bar on Fern Lane. We pour carefully made espresso, bake buns every morning and keep the window seat warm for whoever gets there first.</p>
+        <p class="status" data-status><span class="dot" aria-hidden="true"></span><span data-status-text>Open every day</span></p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#menu">See the menu</a>
+          <a class="btn btn-ghost" href="#visit">Find us</a>
+        </div>
+      </div>
+
+      <figure class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 400 400">
+          <circle cx="200" cy="214" r="172" fill="var(--marigold)"/>
+          <g class="steam" fill="none" stroke="var(--ink)" stroke-width="6" stroke-linecap="round">
+            <path class="s1" d="M164 168 c-16 -22 16 -38 0 -60 c-16 -22 16 -38 0 -60"/>
+            <path class="s2" d="M200 160 c-16 -22 16 -38 0 -60 c-16 -22 16 -38 0 -60"/>
+            <path class="s3" d="M236 168 c-16 -22 16 -38 0 -60 c-16 -22 16 -38 0 -60"/>
+          </g>
+          <ellipse cx="200" cy="322" rx="138" ry="24" fill="var(--porcelain)" stroke="var(--ink)" stroke-width="5"/>
+          <ellipse cx="200" cy="318" rx="70" ry="9" fill="none" stroke="var(--ink)" stroke-width="3" opacity=".35"/>
+          <path d="M286 214 q50 -6 46 36 q-4 36 -56 30" fill="none" stroke="var(--ink)" stroke-width="20" stroke-linecap="round"/>
+          <path d="M286 214 q50 -6 46 36 q-4 36 -56 30" fill="none" stroke="var(--porcelain)" stroke-width="9" stroke-linecap="round"/>
+          <path d="M106 196 L294 196 L285 252 Q276 314 200 314 Q124 314 115 252 Z" fill="var(--porcelain)" stroke="var(--ink)" stroke-width="5" stroke-linejoin="round"/>
+          <path d="M110 224 L290 224 L287.4 240 L112.6 240 Z" fill="var(--fern)"/>
+          <ellipse cx="200" cy="196" rx="94" ry="17" fill="var(--crema)" stroke="var(--ink)" stroke-width="5"/>
+          <path d="M200 205 c-10 -6 -22 -10 -14 -17 c5 -4 11 -1 14 3 c3 -4 9 -7 14 -3 c8 7 -4 11 -14 17 z" fill="var(--porcelain)"/>
+          <g fill="var(--ink)">
+            <ellipse cx="70" cy="330" rx="13" ry="9" transform="rotate(-24 70 330)"/>
+            <ellipse cx="338" cy="352" rx="13" ry="9" transform="rotate(30 338 352)"/>
+            <ellipse cx="352" cy="120" rx="11" ry="8" transform="rotate(-50 352 120)"/>
+          </g>
+          <g stroke="var(--marigold)" stroke-width="2.5" fill="none" stroke-linecap="round">
+            <path d="M62 334 q8 -2 16 -8"/>
+            <path d="M330 355 q8 -6 16 -6"/>
+            <path d="M346 126 q4 -6 12 -12"/>
+          </g>
+        </svg>
+      </figure>
+    </section>
+
+    <section class="menu-section" id="menu" aria-labelledby="menu-title">
+      <div class="wrap">
+        <div class="section-head on-dark">
+          <h2 id="menu-title">On the board today</h2>
+          <p>Beans from a small roaster down the road, milk from a farm an hour away, and everything in the case baked here before we open.</p>
+        </div>
+
+        <div class="board">
+          <div class="board-inner">
+            <div class="tabs" role="tablist" aria-label="Menu categories">
+              <button role="tab" id="tab-coffee" aria-controls="panel-coffee" aria-selected="true">Coffee</button>
+              <button role="tab" id="tab-other" aria-controls="panel-other" aria-selected="false" tabindex="-1">Not coffee</button>
+              <button role="tab" id="tab-oven" aria-controls="panel-oven" aria-selected="false" tabindex="-1">From the oven</button>
+            </div>
+
+            <div class="panel" role="tabpanel" id="panel-coffee" aria-labelledby="tab-coffee" tabindex="0">
+              <ul class="items">
+                <li><span class="name">Espresso</span><span class="price">180</span><span class="note">a short, sweet double</span></li>
+                <li><span class="name">Macchiato</span><span class="price">200</span><span class="note">espresso and a spoon of foam</span></li>
+                <li><span class="name">Cortado</span><span class="price">230</span><span class="note">half and half, served in a glass</span></li>
+                <li><span class="name">Cappuccino</span><span class="price">260</span><span class="note">the classic, nice and airy</span></li>
+                <li><span class="name">Flat white</span><span class="price">280</span><span class="note">less foam, more coffee</span></li>
+                <li><span class="name">Oat latte</span><span class="price">300</span><span class="note">any drink, any milk, same price</span></li>
+                <li><span class="name">Filter of the week</span><span class="price">250</span><span class="note">refills are on us</span></li>
+                <li><span class="name">Iced honey latte</span><span class="price">320</span><span class="note">local honey, all year round</span></li>
+              </ul>
+            </div>
+
+            <div class="panel" role="tabpanel" id="panel-other" aria-labelledby="tab-other" tabindex="0" hidden>
+              <ul class="items">
+                <li><span class="name">Hot chocolate</span><span class="price">280</span><span class="note">dark, thick, a marshmallow if you ask</span></li>
+                <li><span class="name">Chai latte</span><span class="price">290</span><span class="note">spiced in house, never from a syrup</span></li>
+                <li><span class="name">Matcha latte</span><span class="price">320</span><span class="note">whisked to order</span></li>
+                <li><span class="name">Loose-leaf tea</span><span class="price">220</span><span class="note">a pot for one, six kinds on the shelf</span></li>
+                <li><span class="name">Fresh lemonade</span><span class="price">250</span><span class="note">with mint from our window box</span></li>
+                <li><span class="name">Babyccino</span><span class="price">free</span><span class="note">for anyone under eight</span></li>
+              </ul>
+            </div>
+
+            <div class="panel" role="tabpanel" id="panel-oven" aria-labelledby="tab-oven" tabindex="0" hidden>
+              <ul class="items">
+                <li><span class="name">Butter croissant</span><span class="price">190</span><span class="note">gone by eleven, usually</span></li>
+                <li><span class="name">Cardamom bun</span><span class="price">220</span><span class="note">the one people come back for</span></li>
+                <li><span class="name">Banana bread</span><span class="price">210</span><span class="note">toasted, with salted butter</span></li>
+                <li><span class="name">Plum cake</span><span class="price">240</span><span class="note">Grandma's recipe, slightly tweaked</span></li>
+                <li><span class="name">Toastie of the day</span><span class="price">390</span><span class="note">ask what's in it today</span></li>
+                <li><span class="name">Granola jar</span><span class="price">330</span><span class="note">yogurt, fruit, our own crunch</span></li>
+              </ul>
+            </div>
+
+            <p class="board-special"><span>Today's special:</span> pumpkin spice cortado, and yes, we made the spice ourselves.</p>
+            <p class="board-foot">Prices in dinars. Tell us about allergies and we'll check every ingredient with you.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="story wrap" id="story" aria-labelledby="story-title">
+      <div class="story-copy">
+        <h2 id="story-title">A print shop, then a coffee bar</h2>
+        <p>Before it was Little Fern, this room was a print shop for forty years. When we took it over in 2019 we kept the old type drawers, the tiled floor and the big front window, and put an espresso machine where the press used to be.</p>
+        <p>There are only twelve seats, so nobody is a stranger for long. Ana runs the bar, Luka bakes, and the fern by the door is older than both of them.</p>
+        <p class="signoff">Ana &amp; Luka</p>
+      </div>
+
+      <div class="regulars">
+        <h3>Things our regulars already know</h3>
+        <ul>
+          <li>
+            <svg viewBox="0 0 48 48" aria-hidden="true"><g fill="var(--fern)"><ellipse cx="24" cy="31" rx="9" ry="8"/><circle cx="12" cy="20" r="4.5"/><circle cx="19" cy="12" r="4.5"/><circle cx="29" cy="12" r="4.5"/><circle cx="36" cy="20" r="4.5"/></g></svg>
+            <div><strong>Dogs are welcome.</strong> There's a water bowl by the door and a jar of treats behind the bar.</div>
+          </li>
+          <li>
+            <svg viewBox="0 0 48 48" aria-hidden="true"><g fill="none" stroke="var(--fern)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 16 h24 v12 a10 10 0 0 1 -10 10 h-4 a10 10 0 0 1 -10 -10 z"/><path d="M33 20 h3 a5 5 0 0 1 0 10 h-3"/><path d="M17 10 q-2 -3 0 -6 M25 10 q-2 -3 0 -6"/></g></svg>
+            <div><strong>Filter refills are free.</strong> Stay for a second cup, or a third, we won't count.</div>
+          </li>
+          <li>
+            <svg viewBox="0 0 48 48" aria-hidden="true"><g fill="none" stroke="var(--fern)" stroke-width="3.5" stroke-linejoin="round"><rect x="8" y="7" width="32" height="34" rx="3"/><path d="M24 7 v34 M8 24 h32"/></g></svg>
+            <div><strong>The window seat is first come, first served.</strong> Morning sun until about ten.</div>
+          </li>
+          <li>
+            <svg viewBox="0 0 48 48" aria-hidden="true"><g fill="none" stroke="var(--fern)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 6 v9 M32 6 v9"/><path d="M11 15 h26 v8 a13 13 0 0 1 -26 0 z"/><path d="M24 36 v6"/></g></svg>
+            <div><strong>Laptops are fine on weekdays.</strong> Sockets along the long table. On weekends we keep it screen-free.</div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="happening" id="happening" aria-labelledby="happening-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="happening-title">What's on this month</h2>
+          <p>Small evenings and slow mornings. Spots are limited because the room is, so call ahead.</p>
+        </div>
+        <ol class="events">
+          <li>
+            <p class="date"><span class="day">14</span><span class="mon">Sat, Nov</span></p>
+            <div class="event-body">
+              <h3>Latte art for beginners</h3>
+              <p>Ana shows you how to steam milk properly and pour your first heart. Coffee and a bun included.</p>
+            </div>
+            <p class="event-meta">10:00, six places</p>
+          </li>
+          <li>
+            <p class="date"><span class="day">19</span><span class="mon">Thu, Nov</span></p>
+            <div class="event-body">
+              <h3>Board game night</h3>
+              <p>Bring a game or borrow one of ours. Decaf is on the house after seven.</p>
+            </div>
+            <p class="event-meta">18:00, free entry</p>
+          </li>
+          <li>
+            <p class="date"><span class="day">29</span><span class="mon">Sun, Nov</span></p>
+            <div class="event-body">
+              <h3>Neighborhood makers' market</h3>
+              <p>Ceramics, prints and knitwear from people who live within a few streets of here.</p>
+            </div>
+            <p class="event-meta">11:00 to 16:00</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="visit wrap" id="visit" aria-labelledby="visit-title">
+      <div class="visit-info">
+        <h2 id="visit-title">Come say hello</h2>
+        <address>
+          <p class="addr">Fern Lane 12<br>Old Town, by the little park</p>
+          <p><a class="contact-link" href="tel:+381001234567">+381 00 123 4567</a></p>
+          <p><a class="contact-link" href="mailto:hello@littlefern.example">hello@littlefern.example</a></p>
+        </address>
+
+        <table class="hours">
+          <caption>Opening hours</caption>
+          <tbody>
+            <tr data-days="1,2,3,4,5" data-open="7" data-close="19"><th scope="row">Monday to Friday</th><td>07:00 to 19:00</td></tr>
+            <tr data-days="6" data-open="8" data-close="20"><th scope="row">Saturday</th><td>08:00 to 20:00</td></tr>
+            <tr data-days="0" data-open="9" data-close="17"><th scope="row">Sunday</th><td>09:00 to 17:00</td></tr>
+          </tbody>
+        </table>
+        <p class="hours-note">Open on holidays too, just with shorter hours. We post them on the door a week before.</p>
+      </div>
+
+      <figure class="map">
+        <svg viewBox="0 0 480 400" role="img" aria-labelledby="map-title">
+          <title id="map-title">Map: Little Fern is on Fern Lane, on the corner by the little park, two streets from the river.</title>
+          <rect width="480" height="400" fill="var(--sage-deep)"/>
+          <path d="M-10 330 C 90 300 160 370 260 340 S 420 280 490 300 L490 410 L-10 410 Z" fill="var(--river)"/>
+          <rect x="250" y="60" width="150" height="110" rx="18" fill="var(--park)"/>
+          <g fill="var(--fern)" opacity=".55">
+            <circle cx="282" cy="92" r="12"/><circle cx="318" cy="128" r="14"/><circle cx="364" cy="94" r="11"/><circle cx="372" cy="140" r="9"/>
+          </g>
+          <g stroke="var(--road)" stroke-linecap="round" fill="none">
+            <path d="M-10 200 H490" stroke-width="22"/>
+            <path d="M220 -10 V320" stroke-width="22"/>
+            <path d="M-10 60 C 80 70 140 110 220 110" stroke-width="14"/>
+            <path d="M420 -10 C 410 120 440 220 430 300" stroke-width="14"/>
+            <path d="M60 200 V310" stroke-width="12"/>
+          </g>
+          <g font-family="Bricolage Grotesque, sans-serif" font-size="15" fill="var(--ink)" opacity=".75">
+            <text x="24" y="190">Fern Lane</text>
+            <text x="230" y="300" transform="rotate(-90 230 300)">Mill Street</text>
+            <text x="292" y="168">Little park</text>
+            <text x="120" y="372" font-style="italic">the river</text>
+          </g>
+          <g class="pin">
+            <path d="M220 200 c0 0 -30 -34 -30 -54 a30 30 0 0 1 60 0 c0 20 -30 54 -30 54 z" fill="var(--marigold)" stroke="var(--ink)" stroke-width="4"/>
+            <circle cx="220" cy="146" r="11" fill="var(--ink)"/>
+          </g>
+        </svg>
+        <figcaption>On the corner of Fern Lane and Mill Street, two streets up from the river.</figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p class="footer-brand">Little Fern Coffee</p>
+      <p>Fern Lane 12. Open every day. See you soon.</p>
+      <p class="credit">Little Fern is a made-up coffee bar. This demo site was designed and built by
+        <a href="https://milos-milinkov.milos300399.workers.dev" rel="noopener">Miloš Milinkov</a>, who makes websites for local businesses.
+        &copy; <span data-year>2026</span> Miloš Milinkov.</p>
+    </div>
+  </footer>
+</body>
+</html>
